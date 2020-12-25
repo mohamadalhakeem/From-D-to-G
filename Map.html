@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>map of Baghdad</title>
+</head>
+ <header>
+    <div class="navbar">
+        <p>From D to G</p>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Map</a></li>
+          <li><a href="#">About us</a></li>
+           
+        </ul>
+    </div>
+</header>
+<body>
+ <div class="baghdad">
+    <h2>Baghdad</h2>
+    <p class="text2">Baghdad suffers from desertification at the present time, and this desertification is a result of several factors, including government neglect of the agricultural sector at the present time. There are voluntary campaigns that seek afforestation.</p>
+
+  </div>
+
+ <div id="googleMap" ></div>
+ 
+ <script>
+ function myMap() {
+ var mapProp= {
+  center:new google.maps.LatLng(51.508742,-0.120850),
+  zoom:5,
+ };
+ var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+ }
+ </script>
+
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d213392.94150642626!2d44.21581797576071!3d33.311894386831014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15577f67a0a74193%3A0x9deda9d2a3b16f2c!2sBaghdad!5e0!3m2!1sen!2siq!4v1608922937229!5m2!1sen!2siq" class="map"></iframe>
+</body>
+</html>
