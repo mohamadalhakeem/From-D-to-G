@@ -1,6 +1,4 @@
-*{
-    height: 20000;
-}
+
 .navbar{
     width: 100%;
     height: 70px;
@@ -163,6 +161,4 @@ form .text{
 .baghdad_map{
     margin: 20px;
 }
-.footer{
-    background-color:  #67b44b;
-}
+
