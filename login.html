@@ -1,48 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <title>log in</title>
+	<title>Animated Login Form</title>
+	<link rel="stylesheet" type="text/css" href="../static/login.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../Static/style.css">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<header>
-    <div class="navbar">
-        <p>From D to G</p>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#">Map</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="register.html">Register</a></li>
-        </ul>
+<body>
+
+	
+  <div class="navbar">
+    <p>From D to G</p>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Map.html">Map</a></li>
+        <li><a href="about_us.html">About us</a></li>
+        <li><a href="login.html">Login</a></li>
+    </ul>
+ </div>
+	<div class="container">
+		<div class="img">
+			<img src="../img/23.svg" alt="">
+		</div>
+		<div class="login-content">
+			<form action="index.html">
+				
+				<h2 class="title">Sing In</h2>
+           		<div class="input-div one">
+           		   <div class="i">
+           		   		<i class="fas fa-user"></i>
+           		   </div>
+           		   <div class="div">
+           		   		<h5>Username</h5>
+           		   		<input type="text" class="input">
+           		   </div>
+           		</div>
+           		<div class="input-div pass">
+           		   <div class="i"> 
+           		    	<i class="fas fa-lock"></i>
+           		   </div>
+           		   <div class="div">
+           		    	<h5>Password</h5>
+           		    	<input type="password" class="input">
+            	   </div>
+            	</div>
+            	<a href="#">Forgot Password?</a>
+            	<input type="submit" class="btn" value="Login">
+            </form>
+        </div>
     </div>
-</header>
-<body>   
-    <div class="center">
-        <h1>Login</h1>        
-        <form>
-            <div class="text">
-                <input name="username" type="text" placeholder="Username">
-            </div>
-            <div class="text">
-                <input name="password" type="password"  placeholder="Password">
-                <button class="button" type="submit">Login</button>
-            </div>
-         
-           
-            
-            
-
-        </form>
-     
-
-
-
-    </div> 
-  
-
-    
-
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
